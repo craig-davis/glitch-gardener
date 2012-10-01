@@ -4,7 +4,7 @@ tell application "System Events"
         keystroke return
         delay random number from 2 to 4
         repeat 16
-            repeat 4
+            repeat 5
                 keystroke return
                 delay random number from 1 to 3
             end repeat
