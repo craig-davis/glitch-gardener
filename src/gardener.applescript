@@ -4,12 +4,12 @@ tell application "System Events"
         keystroke return
         delay random number from 2 to 4
         repeat 16
-            repeat 4
+            repeat 5
                 keystroke return
-                delay random number from 1 to 3
+                delay random number from 3 to 5
             end repeat
             keystroke (ASCII character 29)
-            delay 1
+            delay 2
         end repeat
     end tell
 end tell
